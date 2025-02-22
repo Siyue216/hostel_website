@@ -97,23 +97,6 @@ export default function Home() {
                     hostel, let our spirit soar and our hearts ignite!
                   </p>
                 </div>
-                {/* <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Popover>
-                    <PopoverTrigger asChild>
-                      <Button
-                        className="w-[240px] justify-start text-left font-normal"
-                        variant="outline"
-                      >
-                        <CalendarIcon className="mr-2 h-4 w-4" />
-                        <span>Pick a date</span>
-                      </Button>
-                    </PopoverTrigger>
-                    <PopoverContent className="w-auto p-0" align="start">
-                      <Calendar mode="range" numberOfMonths={2} />
-                    </PopoverContent>
-                  </Popover>
-                  <Button>Book Now</Button>
-                </div> */}
               </div>
             </div>
           </div>
