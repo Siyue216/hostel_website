@@ -92,9 +92,9 @@ export default function Home() {
                     Military Boys Hostel
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                    "Rise as one—united in courage, strength, and honor!
+                    Rise as one—united in courage, strength, and honor!
                     Together we conquer every challenge. For the pride of our
-                    hostel, let our spirit soar and our hearts ignite!"
+                    hostel, let our spirit soar and our hearts ignite!
                   </p>
                 </div>
                 {/* <div className="flex flex-col gap-2 min-[400px]:flex-row">
