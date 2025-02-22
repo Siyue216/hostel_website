@@ -7,7 +7,6 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-import { Button } from "@/components/ui/button";
 import HoverVideo from "@/components/ui/HoverVideo";
 
 export default function Home() {
@@ -23,13 +22,15 @@ export default function Home() {
             height={150}
           />
           <div className="ml-4 text-left">
-            <h1 style={{ color: "black", fontWeight: "bold" }} className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
+            <h1
+              style={{ color: "black", fontWeight: "bold" }}
+              className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl"
+            >
               Military Boys Hostel
             </h1>
             <p className="text-sm text-black">
-              Vita-Karad road, Saidapur , Vidyanagar, 
-              Karad, Satara, Maharashtra, India,
-              415124
+              Vita-Karad road, Saidapur , Vidyanagar, Karad, Satara,
+              Maharashtra, India, 415124
             </p>
           </div>
         </div>
@@ -42,7 +43,7 @@ export default function Home() {
           height={150}
         />
       </header>
-      <div style={{backgroundColor: "#FAD5A5", color:"black"}}>
+      <div style={{ backgroundColor: "#FAD5A5", color: "black" }}>
         <NavigationMenu>
           <NavigationMenuItem>
             <Link href="/docs" legacyBehavior passHref>
@@ -91,8 +92,9 @@ export default function Home() {
                     Military Boys Hostel
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  "Rise as one—united in courage, strength, and honor! Together we conquer every challenge.
-                  For the pride of our hostel, let our spirit soar and our hearts ignite!"
+                    "Rise as one—united in courage, strength, and honor!
+                    Together we conquer every challenge. For the pride of our
+                    hostel, let our spirit soar and our hearts ignite!"
                   </p>
                 </div>
                 {/* <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -182,4 +184,3 @@ export default function Home() {
     </div>
   );
 }
-
