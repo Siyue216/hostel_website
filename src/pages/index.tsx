@@ -116,7 +116,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 bg-orange-300">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-orange-300">
           <div className="container px-4 md:px-6">
             <h2
               style={{ color: "black", fontWeight: "bold" }}
@@ -183,23 +183,3 @@ export default function Home() {
   );
 }
 
-import { SVGProps } from "react";
-import { AlignCenter } from "lucide-react";
-
-function MountainIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      aria-hidden="true"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  );
-}
